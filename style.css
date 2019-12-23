@@ -1,0 +1,93 @@
+/*
+
+Template 2076 Zentro
+
+http://www.tooplate.com/view/2076-zentro
+
+*/
+/* 
+body {
+		background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: relative;
+} */
+
+.heading {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+h5 {
+  line-height: 1.5;
+}
+
+hr {
+	border-top: 2px solid #828282;
+	width: 120px;
+}
+
+ul.items {
+  max-width: 200em;
+  padding: 0;
+  overflow-x: hidden;
+  list-style: none
+}
+
+ul.items li:before {
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  content:
+          ". . . . . . . . . . . . . . . . . . . . "
+          ". . . . . . . . . . . . . . . . . . . . "
+          ". . . . . . . . . . . . . . . . . . . . "
+          ". . . . . . . . . . . . . . . . . . . . "
+          ". . . . . . . . . . . . . . . . . . . . "
+          ". . . . . . . . . . . . . . . . . . . . "
+          ". . . . . . . . . . . . . . . . . . . . "
+          ". . . . . . . . . . . . . . . . . . . . "
+          ". . . . . . . . . . . . . . . . . . . . "
+          ". . . . . . . . . . . . . . . . . . . . "
+}
+
+ul.items span:first-child {
+  color: #333 !important;
+  background-image: linear-gradient(to bottom, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, white, white, white, transparent, transparent, transparent)
+}
+
+ul.items span + span {
+  float: right;
+  background-color: white;
+}
+
+.menu-content {
+  padding: 80px 40px 20px 40px;
+}
+
+body {
+  background: rgb(204,204,204); 
+}
+
+page {
+  background: white;
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+page[size="A4"] {  
+  width: 21cm;
+  height: 29.7cm; 
+}
+
+@media print {
+  body, page {
+    margin: 0;
+    box-shadow: 0;
+  }
+}
