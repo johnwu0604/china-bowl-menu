@@ -4,10 +4,23 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="style.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="controller.js"></script>
 </head>
 
 <body ng-controller="china-bowl-menu-controller">
+
+    <!-- Page 0 -->
+    <title-page size="A4">
+        <div class="col-md-12 text-center title">
+            <img src="logo.png"/>
+            <div class="info">
+                <div class="info-item"><i class="icon fa fa-home"></i>4061 200 Street, Unit 106</div>
+                <div class="info-item"><i class="icon fa fa-phone"></i>(604) 532-7898</div>
+                <div class="info-item"><i class="icon fa fa-globe"></i>www.chinabowl.ca</div>
+            </div>
+        </div>
+    </title-page>
 
     <!-- Page 1 -->
     <page size="A4">
@@ -45,13 +58,17 @@
                 <hr>
             </div>
             <div class="col-md-12">
-                <h5>Fried Rice</h5>
+                <p class="sub-heading">
+                    <strong>Fried Rice</strong>
+                </p>
                 <ul class=items>
                     <li ng-repeat="item in menu.rice.friedRice.items">
                         <span>{{ item.name }} &nbsp;</span>
                         <span> &nbsp; ${{ item.priceLarge }} </span>
                 </ul>
-                <h5>On Rice</h5>
+                <p class="sub-heading">
+                    <strong>On Rice</strong>
+                </p>
                 <ul class=items>
                     <li ng-repeat="item in menu.rice.onRice.items">
                         <span>{{ item.name }} &nbsp;</span>
@@ -72,25 +89,33 @@
                 <hr>
             </div>
             <div class="col-md-12">
-                <h5>Soft Noodle Chow Mein</h5>
+                <p class="sub-heading">
+                    <strong>Soft Noodle Chow Mein</strong>
+                </p>
                 <ul class=items>
                     <li ng-repeat="item in menu.noodle.softNoodle.items">
                         <span>{{ item.name }} &nbsp;</span>
                         <span> &nbsp; ${{ item.priceLarge }} </span>
                 </ul>
-                <h5>Noodle Mixed With Sauce</h5>
+                <p class="sub-heading">
+                    <strong>Noodle Mixed With Sauce</strong>
+                </p>
                 <ul class=items>
                     <li ng-repeat="item in menu.noodle.mixedNoodle.items">
                         <span>{{ item.name }} &nbsp;</span>
                         <span> &nbsp; ${{ item.priceLarge }} </span>
                 </ul>
-                <h5>Crispy Noodle Chow Mein</h5>
+                <p class="sub-heading">
+                    <strong>Crispy Noodle Chow Mein</strong>
+                </p>
                 <ul class=items>
                     <li ng-repeat="item in menu.noodle.crispyNoodle.items">
                         <span>{{ item.name }} &nbsp;</span>
                         <span> &nbsp; ${{ item.priceLarge }} </span>
                 </ul>
-                <h5>Rice Noodle</h5>
+                <p class="sub-heading">
+                    <strong>Rice Noodle</strong>
+                </p>
                 <ul class=items>
                     <li ng-repeat="item in menu.noodle.riceNoodle.items">
                         <span>{{ item.name }} &nbsp;</span>
@@ -247,9 +272,79 @@
             <div class="col-md-12">
                 <ul class=items>
                     <li ng-repeat="item in menu.combo.items">
+                        <span>
+                            <strong>{{ item.name }} </strong>&nbsp;</span>
+                        <span> &nbsp; ${{ item.priceLarge }} </span>
+                        <p>{{ item.description }}</p>
+                </ul>
+            </div>
+
+
+            <!-- Section 14 -->
+            <div class="col-md-12 text-center">
+                <h1 class="heading">Dine-In Specialities</h1>
+                <hr>
+            </div>
+            <div class="col-md-12">
+                <p class="sub-heading">
+                    <strong>Hot Pot</strong>
+                </p>
+                <ul class=items>
+                    <li ng-repeat="item in menuDining.dineIn.hotPot.items">
                         <span>{{ item.name }} &nbsp;</span>
                         <span> &nbsp; ${{ item.priceLarge }} </span>
-                        <h6>{{ item.description }}</h6>
+                </ul>
+                <p class="sub-heading">
+                    <strong>Sizzling Platter</strong>
+                </p>
+                <ul class=items>
+                    <li ng-repeat="item in menuDining.dineIn.sizzlingPlatter.items">
+                        <span>{{ item.name }} &nbsp;</span>
+                        <span> &nbsp; ${{ item.priceLarge }} </span>
+                </ul>
+            </div>
+
+            <!-- Section 15 -->
+            <div class="col-md-12 text-center">
+                <h1 class="heading">Side Orders</h1>
+                <hr>
+            </div>
+            <div class="col-md-12">
+                <ul class=items>
+                    <li ng-repeat="item in menuDining.sideOrders.items">
+                        <span>{{ item.name }} &nbsp;</span>
+                        <span> &nbsp; ${{ item.priceLarge }} </span>
+                </ul>
+            </div>
+
+        </div>
+    </page>
+
+    <!-- Page 7 -->
+    <page size="A4">
+        <div class="menu-content">
+
+            <!-- Section 16 -->
+            <div class="col-md-12 text-center">
+                <h1 class="heading">Beverages</h1>
+                <hr>
+            </div>
+            <div class="col-md-12">
+                <p class="sub-heading">
+                    <strong>Non-Alcoholic</strong>
+                </p>
+                <ul class=items>
+                    <li ng-repeat="item in menuDining.beverages.nonalcoholic.items">
+                        <span>{{ item.name }} &nbsp;</span>
+                        <span> &nbsp; ${{ item.priceLarge }} </span>
+                </ul>
+                <p class="sub-heading">
+                    <strong>Alcoholic</strong>
+                </p>
+                <ul class=items>
+                    <li ng-repeat="item in menuDining.beverages.alcoholic.items">
+                        <span>{{ item.name }} &nbsp;</span>
+                        <span> &nbsp; ${{ item.priceLarge }} </span>
                 </ul>
             </div>
 

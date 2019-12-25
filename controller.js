@@ -6,4 +6,8 @@ chinaBowlMenu.controller('china-bowl-menu-controller', function ChinaBowlMenuCon
     $scope.menu = data
   })
 
+  $http.get('menu-dining.json').success(function (data) {
+    $scope.menuDining = data
+  })
+
 })

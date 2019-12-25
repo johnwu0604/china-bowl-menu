@@ -1,21 +1,33 @@
-/*
-
-Template 2076 Zentro
-
-http://www.tooplate.com/view/2076-zentro
-
-*/
-/* 
-body {
-		background: #ffffff;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    position: relative;
-} */
-
 .heading {
   font-size: 22px;
   font-weight: 500;
+}
+
+.sub-heading {
+  margin-bottom: 0px;
+}
+
+.title {
+  padding-top: 250px;
+}
+
+.title img {
+  width: 50%;
+}
+
+.info {
+  margin-top: 75px;
+}
+
+.info-item {
+  font-size: 25px;
+  font-weight: 400;
+  text-align: left;
+  margin-left: 30%;
+}
+
+.icon {
+  margin-right: 15px;
 }
 
 h5 {
@@ -62,7 +74,7 @@ ul.items span + span {
 }
 
 .menu-content {
-  padding: 80px 40px 20px 40px;
+  padding: 110px 50px 20px 50px;
 }
 
 body {
@@ -85,8 +97,21 @@ page[size="A4"] {
   height: 29.7cm; 
 }
 
+title-page {
+  background: white;
+  background-position: top;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+title-page[size="A4"] {  
+  width: 21cm;
+  height: 29.7cm; 
+}
+
 @media print {
-  body, page {
+  body, page, title-page {
     margin: 0;
     box-shadow: 0;
   }

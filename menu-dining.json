@@ -1,0 +1,146 @@
+{
+    "dineIn": {
+        "hotPot": {
+            "items": [
+                {
+                    "id": 163,
+                    "name": "Dai ching (Chicken/Beef) & vegetable hot pot",
+                    "priceLarge": "16.00",
+                    "isSpicy": false
+                },
+                {
+                    "id": 164,
+                    "name": "Back bean (Chicken/Beef) & vegetable hot pot",
+                    "priceLarge": "16.00",
+                    "isSpicy": false
+                },
+                {
+                    "id": 165,
+                    "name": "(Chicken/Beef) & slice ginger onion hot pot",
+                    "priceLarge": "16.00",
+                    "isSpicy": false
+                },
+                {
+                    "id": 166,
+                    "name": "Hot chilli, sour egg plant hot pot",
+                    "priceLarge": "16.00",
+                    "isSpicy": true
+                },
+                {
+                    "id": 167,
+                    "name": "Mixed seafood & vegetable hot pot",
+                    "priceLarge": "17.00",
+                    "isSpicy": false
+                }
+            ]
+        },
+        "sizzlingPlatter": {
+            "items": [
+                {
+                    "id": 168,
+                    "name": "Satay (beef/chicken) & vegetable platter",
+                    "priceLarge": "16.00",
+                    "isSpicy": false
+                },
+                {
+                    "id": 169,
+                    "name": "Hot bean (beef/chicken) & vegetable platter",
+                    "priceLarge": "16.00",
+                    "isSpicy": false
+                },
+                {
+                    "id": 170,
+                    "name": "Fried fish & black bean vegetable platter",
+                    "priceLarge": "16.00",
+                    "isSpicy": true
+                }
+            ]
+        }
+    },
+    "sideOrders": {
+        "items": [
+            {
+                "id": 170,
+                "name": "Sauce (per bowl)",
+                "priceLarge": "1.75",
+                "isSpicy": false
+            }
+        ]
+    },
+    "beverages": {
+        "nonalcoholic": {
+            "items": [
+                {
+                    "id": 171,
+                    "name": "Can Pop",
+                    "priceLarge": "1.95",
+                    "isSpicy": false
+                },
+                {
+                    "id": 172,
+                    "name": "Iced Tea",
+                    "priceLarge": "1.95",
+                    "isSpicy": false
+                },
+                {
+                    "id": 173,
+                    "name": "Juice",
+                    "priceLarge": "10.50",
+                    "isSpicy": false
+                },
+                {
+                    "id": 174,
+                    "name": "Milk",
+                    "priceLarge": "1.95",
+                    "isSpicy": false
+                },
+                {
+                    "id": 176,
+                    "name": "English Tea",
+                    "priceLarge": "1.95",
+                    "isSpicy": false
+                },
+                {
+                    "id": 177,
+                    "name": "Chinese Tea",
+                    "priceLarge": "1.95",
+                    "isSpicy": false
+                }
+            ]
+        },
+        "alcoholic": {
+            "items": [
+                {
+                    "id": 178,
+                    "name": "Local Beer",
+                    "priceLarge": "5.95",
+                    "isSpicy": false
+                },
+                {
+                    "id": 179,
+                    "name": "Import Beer",
+                    "priceLarge": "6.95",
+                    "isSpicy": false
+                },
+                {
+                    "id": 180,
+                    "name": "Red or White Wine (Per Glass)",
+                    "priceLarge": "5.95",
+                    "isSpicy": false
+                },
+                {
+                    "id": 181,
+                    "name": "Red or White Wine (1/2 Litre)",
+                    "priceLarge": "12.95",
+                    "isSpicy": false
+                },
+                {
+                    "id": 182,
+                    "name": "Red or White Wine (1 Litre)",
+                    "priceLarge": "22.95",
+                    "isSpicy": false
+                }
+            ]
+        }
+    }
+}
