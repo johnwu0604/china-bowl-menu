@@ -1,5 +1,5 @@
 .heading {
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 500;
 }
 
@@ -20,8 +20,7 @@
 }
 
 .info-item {
-  font-size: 25px;
-  font-weight: 400;
+  font-size: 30px !important;
   text-align: left;
   margin-left: 30%;
 }
@@ -41,7 +40,7 @@ hr {
 
 ul.items {
   max-width: 200em;
-  padding: 0;
+  padding: 0px 0px 35px 0px;
   overflow-x: hidden;
   list-style: none
 }
@@ -65,7 +64,7 @@ ul.items li:before {
 
 ul.items span:first-child {
   color: #333 !important;
-  background-image: linear-gradient(to bottom, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, transparent, white, white, white, transparent, transparent, transparent)
+  background-color: #ffffff
 }
 
 ul.items span + span {
@@ -74,11 +73,17 @@ ul.items span + span {
 }
 
 .menu-content {
-  padding: 110px 50px 20px 50px;
+  padding: 140px 80px 40px 80px;
+}
+
+.wrapper {
+  width: 21cm;
 }
 
 body {
   background: rgb(204,204,204); 
+  margin: 0;
+  font-size: 1.2rem;
 }
 
 page {
@@ -88,31 +93,29 @@ page {
   background-size: cover;
   background-position: top;
   display: block;
-  margin: 0 auto;
-  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  margin: 0 0;
+  page-break-after: always;
 }
 
 page[size="A4"] {  
-  width: 21cm;
-  height: 29.7cm; 
+  width: 263mm;
+  height: 372mm;  
 }
 
 title-page {
   background: white;
   background-position: top;
   display: block;
-  margin: 0 auto;
-  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  margin: 0 0;
+  page-break-after: always;
 }
 
 title-page[size="A4"] {  
-  width: 21cm;
-  height: 29.7cm; 
+  width: 263mm;
+  height: 372mm; 
 }
 
-@media print {
-  body, page, title-page {
-    margin: 0;
-    box-shadow: 0;
-  }
-}
+
+
+
+
