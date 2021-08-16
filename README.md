@@ -13,4 +13,9 @@ Visit http://localhost:8000/menu.html to see rendered code.
 
 #### Export
 
-Export to PDF using browser print function.
+Export to PDF using browser print function and following settings:
+
+- Browser: Edge
+- Background graphics: True
+- Margins: None
+- Scale: 100
