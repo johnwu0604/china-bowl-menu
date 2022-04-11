@@ -61,8 +61,20 @@
         "items": [
             {
                 "id": 170,
-                "name": "Sauce (per bowl)",
+                "name": "Sweet & Sour Sauce (per bowl)",
                 "priceLarge": "2.50",
+                "isSpicy": false
+            },
+            {
+                "id": 183,
+                "name": "Hot Sauce",
+                "priceLarge": "1.50",
+                "isSpicy": false
+            },
+            {
+                "id": 184,
+                "name": "Chilli Oil",
+                "priceLarge": "1.50",
                 "isSpicy": false
             }
         ]
@@ -73,12 +85,6 @@
                 {
                     "id": 171,
                     "name": "Can Pop",
-                    "priceLarge": "2.50",
-                    "isSpicy": false
-                },
-                {
-                    "id": 172,
-                    "name": "Iced Tea",
                     "priceLarge": "2.50",
                     "isSpicy": false
                 },
