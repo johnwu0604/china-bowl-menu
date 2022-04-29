@@ -62,6 +62,13 @@ ul.items li:before {
           ". . . . . . . . . . . . . . . . . . . . "
 }
 
+ul.combo-items li:before {
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  content:""
+}
+
 ul.items span:first-child {
   color: #333 !important;
   background-color: #ffffff

@@ -237,11 +237,7 @@
                     "name": "Fried shanghai thick noodle",
                     "priceLarge": "14.99",
                     "isSpicy": false
-                }
-            ]
-        },
-        "mixedNoodle": {
-            "items": [
+                },
                 {
                     "id": 36,
                     "name": "Noodle with oyster sauce",
@@ -484,7 +480,7 @@
             {
                 "id": 75,
                 "name": "Pork lettuce wrap",
-                "priceLarge": "16.99",
+                "priceLarge": "17.99",
                 "isSpicy": false
             }
         ]
@@ -577,7 +573,7 @@
             },
             {
                 "id": 90,
-                "name": "Beef with black bean sauce and vegetable",
+                "name": "Beef and vegetables with black bean sauce",
                 "priceLarge": "16.99",
                 "isSpicy": false
             },
@@ -602,7 +598,7 @@
             {
                 "id": 94,
                 "name": "Dry garlic and spicy shredded beef",
-                "priceLarge": "17.00",
+                "priceLarge": "17.99",
                 "isSpicy": false
             },
             {
@@ -695,7 +691,7 @@
             },
             {
                 "id": 109,
-                "name": "Chicken and vegetable w/ black bean sauce",
+                "name": "Chicken and vegetables with black bean sauce",
                 "priceLarge": "15.99",
                 "isSpicy": false
             },
@@ -795,7 +791,7 @@
             },
             {
                 "id": 125,
-                "name": "Spicy vegetable foo yong",
+                "name": "House foo yong",
                 "priceLarge": "15.99",
                 "isSpicy": false
             }
@@ -849,6 +845,12 @@
                 "id": 133,
                 "name": "Prawn in black bean sauce and vegetable",
                 "priceLarge": "18.99",
+                "isSpicy": false
+            },
+            {
+                "id": 185,
+                "name": "Prawn & scallops with vegetable",
+                "priceLarge": "20.99",
                 "isSpicy": false
             },
             {
