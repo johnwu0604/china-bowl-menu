@@ -54,6 +54,7 @@
                 </ul>
             </div>
 
+            
             <!-- Section 3 -->
             <div class="col-md-12 text-center">
                 <h1 class="heading">Rice</h1>
@@ -68,6 +69,17 @@
                         <span>{{ item.name }} &nbsp;</span>
                         <span> &nbsp; ${{ item.priceLarge }} </span>
                 </ul>
+            </div>
+
+        </div>
+    </page>
+
+    <!-- Page 2 -->
+    <page size="A4">
+        <div class="menu-content">
+
+            <!-- Section 3 continued-->
+            <div class="col-md-12">
                 <p class="sub-heading">
                     <strong>On Rice</strong>
                 </p>
@@ -77,13 +89,6 @@
                         <span> &nbsp; ${{ item.priceLarge }} </span>
                 </ul>
             </div>
-
-        </div>
-    </page>
-
-    <!-- Page 2 -->
-    <page size="A4">
-        <div class="menu-content">
 
             <!-- Section 4 -->
             <div class="col-md-12 text-center">
@@ -107,6 +112,17 @@
                         <span>{{ item.name }} &nbsp;</span>
                         <span> &nbsp; ${{ item.priceLarge }} </span>
                 </ul>
+            </div>
+
+        </div>
+    </page>
+
+    <!-- Page 3 -->
+    <page size="A4">
+        <div class="menu-content">
+
+            <!-- Section 4 - continued-->
+            <div class="col-md-12">
                 <p class="sub-heading">
                     <strong>Rice Noodle</strong>
                 </p>
@@ -116,13 +132,6 @@
                         <span> &nbsp; ${{ item.priceLarge }} </span>
                 </ul>
             </div>
-
-        </div>
-    </page>
-
-    <!-- Page 3 -->
-    <page size="A4">
-        <div class="menu-content">
 
             <!-- Section 5 -->
             <div class="col-md-12 text-center">
@@ -139,12 +148,12 @@
 
             <!-- Section 6 -->
             <div class="col-md-12 text-center">
-                <h1 class="heading">Beef</h1>
+                <h1 class="heading">Pork</h1>
                 <hr>
             </div>
             <div class="col-md-12">
                 <ul class=items>
-                    <li ng-repeat="item in menu.beef.items">
+                    <li ng-repeat="item in menu.pork.items">
                         <span>{{ item.name }} &nbsp;</span>
                         <span> &nbsp; ${{ item.priceLarge }} </span>
                 </ul>
@@ -159,16 +168,23 @@
 
             <!-- Section 7 -->
             <div class="col-md-12 text-center">
-                <h1 class="heading">Pork</h1>
+                <h1 class="heading">Beef</h1>
                 <hr>
             </div>
             <div class="col-md-12">
                 <ul class=items>
-                    <li ng-repeat="item in menu.pork.items">
+                    <li ng-repeat="item in menu.beef.items">
                         <span>{{ item.name }} &nbsp;</span>
                         <span> &nbsp; ${{ item.priceLarge }} </span>
                 </ul>
             </div>
+
+        </div>
+    </page>
+
+    <!-- Page 5 -->
+    <page size="A4">
+        <div class="menu-content">
 
             <!-- Section 8 -->
             <div class="col-md-12 text-center">
@@ -183,13 +199,6 @@
                 </ul>
             </div>
 
-        </div>
-    </page>
-
-    <!-- Page 5 -->
-    <page size="A4">
-        <div class="menu-content">
-
             <!-- Section 9 -->
             <div class="col-md-12 text-center">
                 <h1 class="heading">Egg Foo Yong</h1>
@@ -202,6 +211,15 @@
                         <span> &nbsp; ${{ item.priceLarge }} </span>
                 </ul>
             </div>
+
+        </div>
+    </page>
+    
+
+    <!-- Page 6 -->
+    <page size="A4">
+        <div class="menu-content">
+    
 
             <!-- Section 10 -->
             <div class="col-md-12 text-center">
@@ -216,13 +234,6 @@
                 </ul>
             </div>
 
-        </div>
-    </page>
-
-    <!-- Page 6 -->
-    <page size="A4">
-        <div class="menu-content">
-
             <!-- Section 11 -->
             <div class="col-md-12 text-center">
                 <h1 class="heading">Western Dishes</h1>
@@ -235,6 +246,13 @@
                         <span> &nbsp; ${{ item.priceLarge }} </span>
                 </ul>
             </div>
+
+        </div>
+    </page>
+
+    <!-- Page 6 -->
+    <page size="A4">
+        <div class="menu-content">
 
             <!-- Section 12 -->
             <div class="col-md-12 text-center">
@@ -251,54 +269,54 @@
                 </ul>
             </div>
 
+
         </div>
     </page>
 
-    <!-- Page 6 -->
+    <!-- Page 7 -->
     <page size="A4">
         <div class="menu-content">
 
-            <!-- Section 13 -->
-            <div class="col-md-12 text-center">
-                <h1 class="heading">Combinations For ONE Person</h1>
-                <hr>
-            </div>
-            <div class="col-md-12">
-                <ul class=items>
-                    <li ng-repeat="item in menu.combo.items">
-                        <span>
-                            <strong>{{ item.name }} </strong>&nbsp;</span>
-                        <span> &nbsp; ${{ item.priceLarge }} </span>
-                        <p>{{ item.description }}</p>
-                    <li>
-                        <span>
-                            <strong>Custom Combination </strong>&nbsp;</span>
-                        <span> &nbsp; $17.99 </span>
-                        <p>Choose any <strong>1</strong> of the following items:</p>
-                        <ul class="combo-items">
-                            <li>(Chicken/pork/vegetable) fried rice</li>
-                            <li>(Chicken/pork/vegetable) chow mein</li>
-                            <li>Steamed rice</li>
-                        </ul>
-                        <br>
-                        <p>Choose any <strong>2</strong> of the following items:</p>
-                        <ul class="combo-items">
-                            <li>(Chicken/pork/beef/vegetable) chop suey</li>
-                            <li>(Chicken/beef) & broccoli</li>
-                            <li>(Chicken/beef) and vegetables with black bean sauce</li>
-                            <li>Spicy (chicken/beef) and vegetables</li>
-                            <li>Satay (chicken/beef) and vegetables</li>
-                            <li>Sweet & sour (pork/chicken)</li>
-                            <li>Honey & garlic (pork/chicken)</li>
-                            <li>Dry garlic & spicy (pork/chicken)</li>
-                            <li>(Lemon/almond) chicken</li>
-                            <li>Sweet & sour chicken balls</li>
-                            <li>Deep fried prawn and dip</li>
-                            <li>Ginger beef</li>
-                        </ul>
-                </ul>
-            </div>
-
+        <!-- Section 13 -->
+        <div class="col-md-12 text-center">
+            <h1 class="heading">Combinations For ONE Person</h1>
+            <hr>
+        </div>
+        <div class="col-md-12">
+            <ul class=items>
+                <li ng-repeat="item in menu.combo.items">
+                    <span>
+                        <strong>{{ item.name }} </strong>&nbsp;</span>
+                    <span> &nbsp; ${{ item.priceLarge }} </span>
+                    <p>{{ item.description }}</p>
+                <li>
+                    <span>
+                        <strong>Custom Combination </strong>&nbsp;</span>
+                    <span> &nbsp; $17.99 </span>
+                    <p>Choose any <strong>1</strong> of the following items:</p>
+                    <ul class="combo-items">
+                        <li>(Chicken/pork/vegetable) fried rice</li>
+                        <li>(Chicken/pork/vegetable) chow mein</li>
+                        <li>Steamed rice</li>
+                    </ul>
+                    <br>
+                    <p>Choose any <strong>2</strong> of the following items:</p>
+                    <ul class="combo-items">
+                        <li>(Chicken/pork/beef/vegetable) chop suey</li>
+                        <li>(Chicken/beef) & broccoli</li>
+                        <li>(Chicken/beef) and vegetables with black bean sauce</li>
+                        <li>Spicy (chicken/beef) and vegetables</li>
+                        <li>Satay (chicken/beef) and vegetables</li>
+                        <li>Sweet & sour (pork/chicken)</li>
+                        <li>Honey & garlic (pork/chicken)</li>
+                        <li>Dry garlic & spicy (pork/chicken)</li>
+                        <li>(Lemon/almond) chicken</li>
+                        <li>Sweet & sour chicken balls</li>
+                        <li>Deep fried prawn and dip</li>
+                        <li>Ginger beef</li>
+                    </ul>
+            </ul>
+        </div>
 
         </div>
     </page>

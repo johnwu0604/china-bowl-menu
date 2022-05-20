@@ -105,8 +105,8 @@ page {
 }
 
 page[size="A4"] {  
-  width: 263mm;
-  height: 372mm;  
+  width: 8.5in;
+  height: 11in;  
 }
 
 title-page {
@@ -118,10 +118,9 @@ title-page {
 }
 
 title-page[size="A4"] {  
-  width: 263mm;
-  height: 372mm; 
+  width: 8.5in;
+  height: 11in;  
 }
-
 
 
 
