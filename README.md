@@ -13,9 +13,21 @@ Visit http://localhost:8000/menu.html to see rendered code.
 
 #### Export
 
-Export to PDF using browser print function and following settings:
+Export to PDF using browser print function and the settings below.
+
+Windows:
 
 - Browser: Edge
 - Background graphics: True
 - Margins: None
 - Scale: 100
+
+Mac:
+
+- Browser: Chrome
+- Background graphics: True
+- Margins: None
+- Scale: 100
+- Paper size: Letter
+
+Then click `Open PDF in Preview` and then save that.
