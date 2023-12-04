@@ -62,6 +62,13 @@ ul.items li:before {
           ". . . . . . . . . . . . . . . . . . . . "
 }
 
+ul.combo-items li:before {
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  content:""
+}
+
 ul.items span:first-child {
   color: #333 !important;
   background-color: #ffffff
@@ -83,7 +90,7 @@ ul.items span + span {
 body {
   background: rgb(204,204,204); 
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.0rem;
 }
 
 page {
@@ -98,8 +105,8 @@ page {
 }
 
 page[size="A4"] {  
-  width: 263mm;
-  height: 372mm;  
+  width: 8.5in;
+  height: 11in;  
 }
 
 title-page {
@@ -111,10 +118,9 @@ title-page {
 }
 
 title-page[size="A4"] {  
-  width: 263mm;
-  height: 372mm; 
+  width: 8.5in;
+  height: 11in;  
 }
-
 
 
 

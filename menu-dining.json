@@ -5,31 +5,31 @@
                 {
                     "id": 163,
                     "name": "Dai ching (Chicken/Beef) & vegetable hot pot",
-                    "priceLarge": "17.00",
+                    "priceLarge": "21.50",
                     "isSpicy": false
                 },
                 {
                     "id": 164,
                     "name": "Back bean (Chicken/Beef) & vegetable hot pot",
-                    "priceLarge": "17.00",
+                    "priceLarge": "21.50",
                     "isSpicy": false
                 },
                 {
                     "id": 165,
                     "name": "(Chicken/Beef) & slice ginger onion hot pot",
-                    "priceLarge": "17.00",
+                    "priceLarge": "21.50",
                     "isSpicy": false
                 },
                 {
                     "id": 166,
                     "name": "Hot chilli, sour egg plant hot pot",
-                    "priceLarge": "17.00",
+                    "priceLarge": "21.50",
                     "isSpicy": true
                 },
                 {
                     "id": 167,
                     "name": "Mixed seafood & vegetable hot pot",
-                    "priceLarge": "18.00",
+                    "priceLarge": "22.50",
                     "isSpicy": false
                 }
             ]
@@ -39,19 +39,19 @@
                 {
                     "id": 168,
                     "name": "Satay (beef/chicken) & vegetable platter",
-                    "priceLarge": "17.00",
+                    "priceLarge": "21.50",
                     "isSpicy": false
                 },
                 {
                     "id": 169,
                     "name": "Hot bean (beef/chicken) & vegetable platter",
-                    "priceLarge": "17.00",
+                    "priceLarge": "21.50",
                     "isSpicy": false
                 },
                 {
                     "id": 170,
                     "name": "Fried fish & black bean vegetable platter",
-                    "priceLarge": "17.00",
+                    "priceLarge": "21.50",
                     "isSpicy": true
                 }
             ]
@@ -61,8 +61,26 @@
         "items": [
             {
                 "id": 170,
-                "name": "Sauce (per bowl)",
+                "name": "Dipping Sauce (per bowl)",
                 "priceLarge": "2.50",
+                "isSpicy": false
+            },
+            {
+                "id": 183,
+                "name": "Hot Sauce",
+                "priceLarge": "1.50",
+                "isSpicy": false
+            },
+            {
+                "id": 184,
+                "name": "Chilli Oil",
+                "priceLarge": "1.50",
+                "isSpicy": false
+            },
+            {
+                "id": 185,
+                "name": "Sesame Seeds",
+                "priceLarge": "1.50",
                 "isSpicy": false
             }
         ]
@@ -77,12 +95,6 @@
                     "isSpicy": false
                 },
                 {
-                    "id": 172,
-                    "name": "Iced Tea",
-                    "priceLarge": "2.50",
-                    "isSpicy": false
-                },
-                {
                     "id": 176,
                     "name": "English Tea",
                     "priceLarge": "2.50",
@@ -92,40 +104,6 @@
                     "id": 177,
                     "name": "Chinese Tea",
                     "priceLarge": "2.50",
-                    "isSpicy": false
-                }
-            ]
-        },
-        "alcoholic": {
-            "items": [
-                {
-                    "id": 178,
-                    "name": "Local Beer (341 ml)",
-                    "priceLarge": "6.95 + taxes",
-                    "isSpicy": false
-                },
-                {
-                    "id": 179,
-                    "name": "Import Beer (330 ml)",
-                    "priceLarge": "7.95 + taxes",
-                    "isSpicy": false
-                },
-                {
-                    "id": 180,
-                    "name": "Red or White Wine (8oz glass)",
-                    "priceLarge": "6.95 + taxes",
-                    "isSpicy": false
-                },
-                {
-                    "id": 181,
-                    "name": "Red or White Wine (1/2 litre)",
-                    "priceLarge": "13.95 + taxes",
-                    "isSpicy": false
-                },
-                {
-                    "id": 182,
-                    "name": "Red or White Wine (1 litre)",
-                    "priceLarge": "23.95 + taxes",
                     "isSpicy": false
                 }
             ]
