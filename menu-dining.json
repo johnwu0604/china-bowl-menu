@@ -5,31 +5,31 @@
                 {
                     "id": 163,
                     "name": "Dai ching (Chicken/Beef) & vegetable hot pot",
-                    "priceLarge": "21.50",
+                    "priceLarge": "22.95",
                     "isSpicy": false
                 },
                 {
                     "id": 164,
                     "name": "Back bean (Chicken/Beef) & vegetable hot pot",
-                    "priceLarge": "21.50",
+                    "priceLarge": "22.95",
                     "isSpicy": false
                 },
                 {
                     "id": 165,
                     "name": "(Chicken/Beef) & slice ginger onion hot pot",
-                    "priceLarge": "21.50",
+                    "priceLarge": "22.95",
                     "isSpicy": false
                 },
                 {
                     "id": 166,
                     "name": "Hot chilli, sour egg plant hot pot",
-                    "priceLarge": "21.50",
+                    "priceLarge": "22.95",
                     "isSpicy": true
                 },
                 {
                     "id": 167,
                     "name": "Mixed seafood & vegetable hot pot",
-                    "priceLarge": "22.50",
+                    "priceLarge": "24.95",
                     "isSpicy": false
                 }
             ]
@@ -39,19 +39,19 @@
                 {
                     "id": 168,
                     "name": "Satay (beef/chicken) & vegetable platter",
-                    "priceLarge": "21.50",
+                    "priceLarge": "22.95",
                     "isSpicy": false
                 },
                 {
                     "id": 169,
                     "name": "Hot bean (beef/chicken) & vegetable platter",
-                    "priceLarge": "21.50",
+                    "priceLarge": "22.95",
                     "isSpicy": false
                 },
                 {
                     "id": 170,
                     "name": "Fried fish & black bean vegetable platter",
-                    "priceLarge": "21.50",
+                    "priceLarge": "22.95",
                     "isSpicy": true
                 }
             ]
